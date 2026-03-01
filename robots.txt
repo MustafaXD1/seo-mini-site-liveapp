@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mustafaxd1.github.io/seo-mini-site-liveapp/sitemap.xml
