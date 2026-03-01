@@ -3,21 +3,81 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LiveApp features | Live updates, simple decisions</title>
-  <meta name="description" content="Key LiveApp features: real-time updates, simple discovery, and community notes." />
+  <title>LiveApp features | Live updates and confident decisions</title>
+  <meta name="description" content="Key LiveApp features: real-time updates, simple discovery, and clear status notes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>LiveApp features</h1>
-  <p>LiveApp focuses on fast discovery and up-to-date information when you need to choose a place.</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="LiveApp home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>LiveApp</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="features.html">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="for-restaurants.html">For Restaurants</a></li>
+        <li><a href="liveapp-restaurant-map.html">Restaurant Map</a></li>
+      </ul>
+    </div>
+  </header>
 
-  <h2>Core features</h2>
-  <ul>
-    <li>Real-time updates from people who are there right now</li>
-    <li>Clear, simple decisions with short notes</li>
-    <li>Less scrolling, more confidence</li>
-  </ul>
+  <main class="container">
+    <section class="card stack" data-animate>
+      <span class="pill"><span class="dot"></span> Feature set</span>
+      <h1 class="page-title">LiveApp features</h1>
+      <p class="page-subtitle">
+        LiveApp is designed for fast discovery and useful context when people need to decide quickly.
+      </p>
 
-  <p>If you want the main overview, visit the <a href="liveapp-restaurant-map.html">LiveApp restaurant map</a>.</p>
-  <p><a href="index.html">Back to Home</a></p>
+      <div class="feature-grid">
+        <article class="feature-card mint">
+          <h3>Real-time updates</h3>
+          <p>Signals from people who are there now, not outdated text from months ago.</p>
+        </article>
+        <article class="feature-card orange">
+          <h3>Status highlights</h3>
+          <p>Clear labels like open, closed, busy, quiet, and queue at a glance.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Map-first flow</h3>
+          <p>People start with location and then decide from nearby activity.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Short notes</h3>
+          <p>Quick updates reduce noise and keep decisions simple.</p>
+        </article>
+        <article class="feature-card orange">
+          <h3>Community trust</h3>
+          <p>Many small updates create a more realistic picture of each place.</p>
+        </article>
+        <article class="feature-card mint">
+          <h3>Less friction</h3>
+          <p>Less scrolling through long reviews and more focus on right now.</p>
+        </article>
+      </div>
+
+      <p class="note">
+        Main overview page:
+        <a href="liveapp-restaurant-map.html"><strong>LiveApp restaurant map</strong></a>
+      </p>
+      <div class="button-row">
+        <a class="btn" href="index.html">Back to home</a>
+        <a class="btn primary" href="liveapp-restaurant-map.html">Open map page</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>2026 LiveApp. Educational mini-site for an SEO assignment.</p>
+      <p>This page supports internal linking toward LiveApp restaurant map.</p>
+    </div>
+  </footer>
 </body>
 </html>

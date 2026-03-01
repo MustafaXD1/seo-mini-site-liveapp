@@ -3,21 +3,89 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LiveApp | Real-time places & updates</title>
-  <meta name="description" content="LiveApp helps people find places with real-time, community-driven updates." />
+  <title>LiveApp | Real-time places and updates</title>
+  <meta name="description" content="LiveApp helps people choose where to go with real-time community updates and a clear map view." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>LiveApp</h1>
-  <p>LiveApp is a lightweight app concept that helps people choose where to go using real-time updates from the community.</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="LiveApp home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>LiveApp</span>
+      </a>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="for-restaurants.html">For Restaurants</a></li>
+        <li><a href="liveapp-restaurant-map.html">Restaurant Map</a></li>
+      </ul>
+    </div>
+  </header>
 
-  <h2>Start here</h2>
-  <ul>
-    <li><a href="features.html">LiveApp features</a></li>
-    <li><a href="how-it-works.html">How LiveApp works</a></li>
-    <li><a href="for-restaurants.html">LiveApp for restaurants</a></li>
-    <li><a href="liveapp-restaurant-map.html">LiveApp restaurant map</a></li>
-  </ul>
+  <main class="container">
+    <section class="hero" data-animate>
+      <article class="card">
+        <span class="pill"><span class="dot"></span> Live updates</span>
+        <h1 class="page-title">Choose where to go faster with LiveApp.</h1>
+        <p class="page-subtitle">
+          LiveApp is a lightweight app concept focused on fresh, community-driven updates.
+          Instead of guessing from old listings, people can check what is happening right now.
+        </p>
+        <div class="button-row">
+          <a class="btn primary" href="liveapp-restaurant-map.html">Open LiveApp restaurant map</a>
+          <a class="btn" href="features.html">See core features</a>
+        </div>
+        <p class="note">
+          SEO target page for this assignment:
+          <a href="liveapp-restaurant-map.html"><strong>LiveApp restaurant map</strong></a>
+        </p>
+      </article>
 
-  <p>Our main SEO page is the <a href="liveapp-restaurant-map.html">LiveApp restaurant map</a>.</p>
+      <aside class="card" data-animate>
+        <div class="image-frame">
+          <img src="images/map-preview.svg" alt="LiveApp restaurant map preview with nearby places" />
+        </div>
+      </aside>
+    </section>
+
+    <section class="card stack delay-1" data-animate>
+      <h2 class="section-title">Start here</h2>
+      <div class="feature-grid">
+        <article class="feature-card mint">
+          <h3>Real-time signals</h3>
+          <p>Visitors share short updates like open, busy, queue, and quiet.</p>
+        </article>
+        <article class="feature-card orange">
+          <h3>Simple decisions</h3>
+          <p>Less scrolling, more confidence when choosing a place.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Live map focus</h3>
+          <p>The main page is built around the LiveApp restaurant map experience.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card stack delay-2" data-animate>
+      <h2 class="section-title">Explore pages</h2>
+      <p class="section-copy">
+        Continue with <a href="features.html">LiveApp features</a>,
+        <a href="how-it-works.html">How LiveApp works</a>, and
+        <a href="for-restaurants.html">LiveApp for restaurants</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>2026 LiveApp. Educational mini-site for an SEO assignment.</p>
+      <p>Built to improve internal links and on-page clarity around the phrase LiveApp restaurant map.</p>
+    </div>
+  </footer>
 </body>
 </html>

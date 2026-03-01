@@ -3,21 +3,76 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LiveApp for restaurants | Visibility with real-time updates</title>
-  <meta name="description" content="LiveApp helps restaurants communicate real-time status and attract the right visitors." />
+  <title>LiveApp for restaurants | Visibility with live updates</title>
+  <meta name="description" content="LiveApp helps restaurants communicate real-time status and attract visitors with clear expectations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>LiveApp for restaurants</h1>
-  <p>Restaurants lose visitors when online information is outdated. LiveApp aims to reduce that gap with real-time updates.</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="LiveApp home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>LiveApp</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a class="active" href="for-restaurants.html">For Restaurants</a></li>
+        <li><a href="liveapp-restaurant-map.html">Restaurant Map</a></li>
+      </ul>
+    </div>
+  </header>
 
-  <h2>Why it helps</h2>
-  <ul>
-    <li>Fewer disappointed visitors</li>
-    <li>Clearer expectations (queues, busy hours, special events)</li>
-    <li>Better discovery through a live map</li>
-  </ul>
+  <main class="container">
+    <section class="card stack" data-animate>
+      <span class="pill"><span class="dot"></span> Partner page</span>
+      <h1 class="page-title">LiveApp for restaurants</h1>
+      <p class="page-subtitle">
+        Restaurants lose visitors when online info is outdated. LiveApp helps reduce that gap with real-time updates.
+      </p>
 
-  <p>See the main SEO page: <a href="liveapp-restaurant-map.html">LiveApp restaurant map</a>.</p>
-  <p><a href="index.html">Back to Home</a></p>
+      <div class="two-col">
+        <article class="feature-card mint">
+          <h3>Fewer disappointed visitors</h3>
+          <p>People arrive with clearer expectations about queue time, noise level, and availability.</p>
+        </article>
+        <article class="feature-card orange">
+          <h3>Better discovery</h3>
+          <p>Live status helps the right audience find the right place at the right time.</p>
+        </article>
+      </div>
+
+      <h2 class="section-title">Why this matters</h2>
+      <ul class="check-list">
+        <li>Updates can reflect busy periods and quieter windows.</li>
+        <li>Visitors make decisions with confidence before arriving.</li>
+        <li>Live data gives restaurants a stronger presence on the map.</li>
+      </ul>
+
+      <div class="image-frame">
+        <img src="images/status-signals.svg" alt="Status signals for restaurant map including open closed busy queue" />
+      </div>
+
+      <p class="note">
+        Main SEO page linked from this section:
+        <a href="liveapp-restaurant-map.html"><strong>LiveApp restaurant map</strong></a>
+      </p>
+      <div class="button-row">
+        <a class="btn" href="index.html">Back to home</a>
+        <a class="btn primary" href="liveapp-restaurant-map.html">See restaurant map</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>2026 LiveApp. Educational mini-site for an SEO assignment.</p>
+      <p>This page highlights benefits for restaurant partners.</p>
+    </div>
+  </footer>
 </body>
 </html>

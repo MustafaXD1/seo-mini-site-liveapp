@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <rect width="100%" height="100%" fill="#f2f2f2"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="36" fill="#333">
+    Real-time Status Signals
+  </text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="20" fill="#555">
+    open • closed • busy • queue
+  </text>
+</svg>
